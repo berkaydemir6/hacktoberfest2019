@@ -1,121 +1,76 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
 
     <title>Hacktoberfest</title>
-      <style>
-        body{
-            background-image: linear-gradient(120deg, #152347 0%, #d90cb3 100%);
-            font-family: "Space Mono", monospace;
-            color: beige;
-        }
-        .bg-custom-1 {
-          background-color: #85144b;
-        }
+</head>
+<body>
 
-        .bg-custom-2 {
-        background-image: linear-gradient(15deg, #152347 0%, #d90cb3 100%);
-        }
-         .navbar{
-            border-width: 0px;
-            -webkit-box-shadow: 0px 0px;
-            box-shadow: 0px 0px;
-            background-color: rgba(0,0,0,0.0);
-            background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-            background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-            background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-        }
-        
-          .navbar a{
-            color: beige;
-        }
-           .dropdown-menu{
-            background-image: linear-gradient(120deg, #152347 0%, #d90cb3 100%);
-        }
-          
-          #myfooter{
-            border-width: 0px;
-            -webkit-box-shadow: 0px 0px;
-            box-shadow: 0px 0px;
-            background-color: rgba(0,0,0,0.0);
-            background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-            background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-            background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-          }
-          #myfooter ul{
-              color: beige;
-          }
-      </style>
-  </head>
-  <body>
-
-    <nav class="navbar navbar-expand-lg ">
-      <a class="navbar-brand" href="https://hacktoberfest.digitalocean.com/"><img src="img/logofull.svg" width="100" height="70" /></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg ">
+    <a class="navbar-brand" href="https://hacktoberfest.digitalocean.com/"><img src="img/logofull.svg" width="100" height="70" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Tutorial</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Other Events
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Event 1</a>
-              <a class="dropdown-item" href="#">Event 2</a>
-              <a class="dropdown-item" href="#">Event 3</a>
-            </div>
-          </li>
+                <a class="nav-link" href="#">Tutorial</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Events</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Event 1</a>
+                        <a class="dropdown-item" href="#">Event 2</a>
+                        <a class="dropdown-item" href="#">Event 3</a>
+                    </div>
+            </li>
         </ul>
-      </div>
-    </nav>
+    </div>
+</nav>
 
 
-    <h1 style="margin:30px;">Welcome to Hacktoberfest 2019 event!</h1>
+<h1 style="margin:30px;">Welcome to Hacktoberfest 2019 event!</h1>
 
-    <h5 class="display-4">
-        Official website: https://hacktoberfest.digitalocean.com
-    </h5>
+<h5 class="display-4">Official website: https://hacktoberfest.digitalocean.com</h5>
+
 <footer id="myFooter" style="margin-top:50px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h2 class="logo"><a href="#"><img src="img/logohack.svg" width="200" height="200" style="margin:20px" /></a></h2>
-                </div>
-                <div class="col-sm-4" style="color:white;margin:20px;">
-                    <h5>Get Started</h5>
-                    <ul>
-                        <li> <a class="nav-link" href="https://hacktoberfest.digitalocean.com/">Homepage</a></li>
-                        <li><a class="nav-link" href="https://hacktoberfestswaglist.com/">Other Events</a></li>
-                      
-                    </ul>
-                </div>
-               
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h2 class="logo"><a href="#"><img src="img/logohack.svg" width="200" height="200" style="margin:20px" /></a></h2>
+            </div>
+            <div class="col-sm-4" style="color:white;margin:20px;">
+                <h5>Get Started</h5>
+                <ul>
+                    <li><a class="nav-link" href="https://hacktoberfest.digitalocean.com/">Homepage</a></li>
+                    <li><a class="nav-link" href="https://hacktoberfestswaglist.com/">Other Events</a></li>
+
+                </ul>
             </div>
         </div>
-        <div class="footer-copyright" style="color:white;margin:20px;">
-            <p style="text-align:center; margin-bottom:20px">© 2019 Hacktoberfest 2019 </p>
-        </div>
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    </div>
+    <div class="footer-copyright" style="color:white;margin:20px;">
+        <p style="text-align:center; margin-bottom:20px">© 2019 Hacktoberfest 2019 </p>
+    </div>
+</footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
