@@ -70,6 +70,12 @@ input{
     background: transparent;
 }
 
+.noborder{
+    border-left: none !important;
+    border-right: none !important;
+    padding-top: 20px;
+}
+
 .bg-custom-2 {
 /*  background-image: linear-gradient(15deg, #152347 0%, #d90cb3 100%);*/
     background-image: linear-gradient(15deg, #152347 0%, #152347 100%);
